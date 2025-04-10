@@ -10,17 +10,17 @@ Título, fecha de estreno y calificación promedio.
 
 Cada tarjeta permite navegar a la pantalla de detalles.
 
-**Botón de favoritos integrado:
-Nose agrego por problemas con el codigo 
+**Botón de favoritos integrado**
+No se agrego por problemas con el codigo 
 
 3. MovieDetails.jsx
 Presenta información detallada de una película:
 
 Póster, año, géneros, descripción y reparto.
 
-Función para calificar películas mediante 'handleRating:'
+Función para calificar películas mediante 'handleRating'
 
-Calificaciones se envían a la API de TMDb con un Guest Session ID.
+Calificaciones se envían a la API de TMDb con un 'Guest Session ID'
 
 Redirección automática a la pantalla principal tras calificar.
 
