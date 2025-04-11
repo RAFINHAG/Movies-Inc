@@ -17,6 +17,7 @@ Un proyecto que permite a los usuarios explorar películas en estreno, calificar
 - **React Native**: Framework principal para desarrollo móvil.
 - **TMDb API**: Para consumir los datos de películas en tiempo real.
 - **React Navigation**: Manejo de navegación entre pantallas.
+- **NodeJs**: Manejos de Modulos y JavaScript.
 
 ---
 
