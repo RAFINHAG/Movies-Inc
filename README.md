@@ -1,75 +1,37 @@
-Este proyecto permite a los usuarios explorar una cartelera de películas, visualizar detalles específicos, calificar películas, y gestionar favoritos. Está construido con React Native y hace uso de la API de TMDb para obtener los datos de las películas.
+# 🎥 Cartelera de Películas
 
-**Componentes Implementados**
-1. App.js
+Un proyecto que permite a los usuarios explorar películas en estreno, calificar películas y marcar sus favoritas. Este proyecto utiliza la API de TMDb para obtener información en tiempo real.
 
-2. NowPlayingList.jsx
-//Muestra la lista de películas en estreno con detalles básicos:
+---
 
-Título, fecha de estreno y calificación promedio.
+## 🚀 **Capturas de Pantalla**
+### Pantalla Principal
+![Pantalla Principal](https://scontent.fhex5-1.fna.fbcdn.net/v/t1.15752-9/488755688_677279094949250_8243507517245358616_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=6Vt812C_-JwQ7kNvwE72S49&_nc_oc=AdkcVJ9YbUwcOgupjmNTgGXF4ZVtxsY33TfX8hS9IQtw8h3BvfqFBQ4Z_xOMpVnjUs0k6kpB_Wwut1faIWfKjWZv&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fhex5-1.fna&oh=03_Q7cD2AG8hO2MOHVZyABkGD2e8B5t_KNVK1vmAG2bVk5rzNs0-w&oe=681FC87F)
 
-Cada tarjeta permite navegar a la pantalla de detalles.
+### Pantalla de Detalles
+![Detalles de la Película](assets/screenshots/movie-details.jpg)
 
-**Botón de favoritos integrado**
-No se agrego por problemas con el codigo 
+### Calificación de Películas
+![Calificación](assets/screenshots/rating.jpg)
 
-3. MovieDetails.jsx
-Presenta información detallada de una película:
+---
 
-Póster, año, géneros, descripción y reparto.
+## ✨ **Características**
+- **Lista de Estrenos**: Visualiza las películas en estreno con detalles básicos (título, fecha y votos).
+- **Detalles de Películas**: Información más detallada, como géneros, descripción y reparto.
+- **Sistema de Calificación**: Califica películas de 1 a 10 estrellas.
+- **Favoritos**: Marca tus películas favoritas con un solo toque.
 
-Función para calificar películas mediante 'handleRating'
+---
 
-Calificaciones se envían a la API de TMDb con un 'Guest Session ID'
+## 🛠️ **Tecnologías Utilizadas**
+- **React Native**: Framework principal para desarrollo móvil.
+- **TMDb API**: Para consumir los datos de películas en tiempo real.
+- **React Navigation**: Manejo de navegación entre pantallas.
 
-Redirección automática a la pantalla principal tras calificar.
+---
 
-4. StarRating.jsx
-Componente reutilizable para calificación:
-
-Permite seleccionar una calificación entre 1 y 10 estrellas.
-
-Envía la calificación al servidor utilizando un Guest Session ID.
-
-Funciones Principales
-Calificación de Películas
-Las calificaciones se envían a TMDb mediante la API.
-
-Se valida el rango de calificación (0.5 a 10).
-
-Sincronización con el estado global para reflejar cambios en el menú principal.
-
-Gestión de Favoritos
-Las películas pueden marcarse como favoritas desde la lista principal o pantalla de detalles.
-
-Sincronización con el estado global para mostrar favoritos en todas las pantallas.
-
-Redirección
-Navegación fluida entre pantallas usando React Navigation:
-
-Al calificar una película, se redirige automáticamente al menú principal.
-
-Integración de API
-TMDb API
-Datos obtenidos:
-
-Información general de las películas (/movie/{movieId}).
-
-Reparto (/movie/{movieId}/credits).
-
-Calificaciones enviadas mediante POST a /movie/{movieId}/rating.
-
-Sesión de invitado generada con /authentication/guest_session/new.
-
-**Estilo y Diseño**
-Simple ya que la tarea no requeria algo mas detallado.
-
-**Tecnologías Utilizadas**
-
-React Native: Framework para desarrollo de aplicaciones móviles.
-
-React Navigation: Biblioteca para navegación entre pantallas.
-
-TMDb API: Fuente de datos para películas, calificaciones y reparto.
-
-
+## ⚙️ **Configuración**
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/TuUsuario/TuRepositorio.git
