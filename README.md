@@ -18,6 +18,7 @@ Un proyecto que permite a los usuarios explorar películas en estreno, calificar
 - **TMDb API**: Para consumir los datos de películas en tiempo real.
 - **React Navigation**: Manejo de navegación entre pantallas.
 - **NodeJs**: Manejos de Modulos y JavaScript.
+- **EXPO/EXPO GO**: Framework para la creación de la plataforma y entorno y GO para la simulación de la app sin necesidad de android studio.
 
 ---
 
