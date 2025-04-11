@@ -4,15 +4,6 @@ Un proyecto que permite a los usuarios explorar películas en estreno, calificar
 
 ---
 
-## 🚀 **Capturas de Pantalla**
-### Pantalla Principal
-![Pantalla Principal]("C:\Users\rafa_\OneDrive\Escritorio\Pagina Principal.jpg")
-
-### Pantalla de Detalles
-![Detalles de la Película]("C:\Users\rafa_\OneDrive\Escritorio\Detalles.jpg")
-
----
-
 ## ✨ **Características**
 - **Lista de Estrenos**: Visualiza las películas en estreno con detalles básicos (título, fecha y votos).
 - **Detalles de Películas**: Información más detallada, como géneros, descripción y reparto.
